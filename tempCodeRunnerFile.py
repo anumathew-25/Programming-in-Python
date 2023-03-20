@@ -1,2 +1,2 @@
-
-distance=int(input("Enter the distance value: "))
+num=str.find(substr)
+print(num)

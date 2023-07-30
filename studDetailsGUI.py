@@ -1,0 +1,10 @@
+from tkinter import *
+root=Tk()
+name=Label(root,text="Student Name:").place(x=20,y=10)
+e1=Entry(root).place(x=100,y=10)
+email=Label(root,text="Email Id:").place(x=20,y=30)
+e2=Entry(root).place(x=100,y=30)
+password=Label(root,text="Password:").place(x=20,y=50)
+e3=Entry(root).place(x=100,y=50)
+submitButton=Button(root,text="Submit",fg="Blue").place(x=50,y=90)
+root.mainloop()

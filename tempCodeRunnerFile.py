@@ -1,2 +1,3 @@
-num=str.find(substr)
-print(num)
+from tkinter import *
+from tkinter import messagebox
+top = Tk()
